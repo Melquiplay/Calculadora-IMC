@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css" media="screen" />
+</head>
+<body>
+    <header>
+        <img src="image/imc-play-13-06-2023 (1).png">
+        <p style="font-size: 10px; margin-top: -8px; font-family: bold; text-align: center;">CALCULADORA DE INDICE DE MASSA CORPORAL</p>
+    </header>
+    <div class="teste">
+        <div class="intro">
+            <p>IMC é a sigla para Índice de Massa Corporal, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.<br>
+            Podemos realizar o cálculo da seguinte maneira: dividimos o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.<br>  
+            Deseja descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare e Apresentaremos o resultado.</p>
+        </div>
+        <div class="inputs">
+            <input class="input" id="peso" placeholder="Peso em Kilos">
+            <input class="input" id="altura" placeholder="Altura em metros">
+            <Button  onclick="calcular()">Verificar</Button>
+        </div>
+        <div>
+            <p id="resultado"></p>
+        </div>
+        
+        <div class="imagem">
+            <a class="image"></a>
+        </div>
+        
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

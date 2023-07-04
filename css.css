@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+body{
+    height: 1000px
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background-color: rgb(227, 255, 250);
+    border-bottom: 2px solid aqua;
+    flex-direction: column;
+}
+.teste{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(227, 255, 250);
+    width: 800px;
+    padding: 2rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    border: aqua 3px solid;
+    
+}
+.inputs{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro{
+    display: flex;
+    width: 700px;
+    justify-content: end;
+}
+.input{
+    background-color: white;
+    height: 30px;
+    border-radius: 10px;
+    border: aqua 3px solid;
+    cursor: pointer;
+    font-size: 15px;
+    width: 150px;
+}
+.input:hover{
+    border: blue 3px solid;
+}
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    background-color: rgb(163, 244, 229);
+}
+img{
+    width: 200px;
+}
+button:hover{
+    background-color: rgb(40, 255, 183);
+}
+@media screen and (max-width: 700px) {
+    .teste{
+        width: 300px;
+        padding: 2rem;
+        top: 80%;
+    } 
+    .inputs{
+        margin-top: 2rem;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .intro{
+        width: 290px;
+    }
+        
+}
+#resultado{
+    margin-top: 1rem;
+    text-align: center;
+
+}
+@media screen and (max-width: 400px) {
+    .teste{
+        width: 210px;
+        padding: 2rem;
+        top: 90%; 
+    } 
+    .inputs{
+        margin-top: 2rem;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .intro{
+        width: 250px;
+    }
+     
+}
+@media screen and (max-height: 670px) {
+    .teste{
+        margin-top: 50px;
+    } 
+         
+}
+@media screen and (max-height: 640px) {
+    .teste{
+        margin-top: 70px;
+    } 
+         
+}
+@media screen and (max-height: 620px) {
+    .teste{
+        margin-top: 100px;
+    }      
+}
+@media screen and (max-height: 580px) {
+    .teste{
+        margin-top: 170px;
+    }      
+}
